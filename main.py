@@ -717,9 +717,34 @@ class Bot(Client):
         await super().stop()
         print("BeastX Bot Stopped")
 
+
+HEALTH_PORT = int(os.environ.get("PORT", 8000))
+
+
+class _HealthHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header("Content-Type", "text/plain")
+        self.end_headers()
+        self.wfile.write(b"OK")
+
+    def log_message(self, *args):
+        pass  # silence noisy access logs
+
+
+def _start_health_server():
+    server = HTTPServer(("0.0.0.0", HEALTH_PORT), _HealthHandler)
+    thread = threading.Thread(target=server.serve_forever, daemon=True)
+    thread.start()
+    log.info("Health check server listening on port %s", HEALTH_PORT)
+
+
+
+
+
 if __name__ == "__main__":
     bot = Bot()
-
+    _start_health_server()
     # Register every command explicitly on the actual Bot instance.
     # The project was consolidated into one file, so decorators attached to
     # the base Client are not relied upon here.
