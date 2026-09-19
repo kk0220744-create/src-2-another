@@ -1,0 +1,4 @@
+# BeastX Save Restricted Content Bot
+# Update Channel: @Beastx_Bots | Support: @Beastx_Support | Dev: @Godmrunal
+
+python-3.11.4
