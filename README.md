@@ -1,12 +1,6 @@
-<p align="center">
-  <img src="https://i.ibb.co/dJ0gpJf1/photo-2025-06-16-12-07-05-7516517596376596504.jpg" alt="BeastX Save Restricted Bot Logo">
-</p>
+# BeastX Save Restricted Bot
 
-<h1 align="center">BeastX Save Restricted Bot</h1>
-
-<p align="center">
-  A customized and reorganized Telegram bot for saving/retrieving Telegram content through post links.
-</p>
+A customized and reorganized Telegram bot for saving/retrieving Telegram content through post links.
 
 ---
 
@@ -15,17 +9,17 @@
 This distribution has been reorganized into a simpler structure and branded as **BeastX**.
 
 ### Official Links
+
 - Update Channel: **@Beastx_Bots**
 - Support: **@Beastx_Support**
 - Developer / Maintainer of this customized build: **@Godmrunal**
 
 ## Credits & Attribution
 
-This project is based on existing open-source work. Original attribution is retained and should remain with the upstream authors.
+This project is based on existing open-source work. Upstream attribution is retained here for the previous modification/source.
 
-- **Original base repository:** [BipinKrish](https://github.com/bipinkrish)
-- **Previous modification/source attribution:** [Tech VJ / VJBots](https://github.com/VJBots)
-- **BeastX customization, reorganization and branding:** **@Godmrunal**
+- **Previous modification/source attribution:** Tech VJ / VJBots
+- **BeastX customization, reorganization and branding:** [@Godmrunal](https://github.com/Godmrunal)
 
 The BeastX customization does not claim ownership of the upstream code.
 
@@ -156,6 +150,28 @@ https://t.me/c/xxxx/101-120
 
 ---
 
+## 🚀 Free Deployment on Koyeb
+
+You can deploy BeastX for free on **Koyeb** using your GitHub repository and environment variables.
+
+### YouTube Deployment Tutorial
+
+📺 **Deploy BeastX on Koyeb for Free — Full Setup Tutorial**
+
+> 🎥 YouTube tutorial link will be added here.
+
+The tutorial will cover:
+
+- Uploading the project to GitHub
+- Connecting GitHub to Koyeb
+- Creating the Koyeb service
+- Adding environment variables
+- Deploying the bot
+- Checking the logs
+- Testing the bot after deployment
+
+---
+
 ## Deployment
 
 ### Procfile-based hosts
@@ -182,7 +198,7 @@ A Dockerfile is included for container-based deployment. Configure environment v
 
 ## License / Upstream Notice
 
-Check the upstream repositories for their respective licenses and terms before redistributing or modifying this project. This repository keeps the upstream attribution listed above.
+Check the upstream project's license and terms before redistributing or modifying this project. This repository keeps the previous source attribution listed above.
 
 ## Handler Notes
 
