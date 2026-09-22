@@ -1,5 +1,5 @@
-# BeastX Save Restricted Content Bot
-# Official: @Beastx_Bots | Support: @Beastx_Support | Dev: @Godmrunal
+# Plasmo Save Restricted Content Bot
+# Official: https://t.me/BWH_S 
 # Original project credits are documented in README.md.
 
 import os
@@ -194,8 +194,8 @@ async def send_start(client: Client, message: Message):
     buttons = [[
         InlineKeyboardButton("❣️ Developer", url = "https://t.me/Godmrunal")
     ],[
-        InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Beastx_Support'),
-        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Beastx_Bots')
+        InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/BWH_S'),
+        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/BWH_S')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
