@@ -1,4 +1,3 @@
-# BeastX Save Restricted Content Bot
-# Update Channel: @Beastx_Bots | Support: @Beastx_Support | Dev: @Godmrunal
-
+# Plasmo Save Restricted Content Bot
+# Update Channel: https://t.me/BWH_S | Support: @BWH_S | Plasmo: @BWH_S
 python-3.11.4
